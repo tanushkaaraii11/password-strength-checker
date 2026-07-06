@@ -1,5 +1,5 @@
 #Password Strength Checker
-#created by : Tanushka Rai
+#created by Tanushka Rai
 
 print("=" * 45)
 print("PASSWORD STRENGTH CHECKER")
@@ -29,14 +29,14 @@ for letter in password:
         has_special = True
 
 if len(password) >= 8 and has_upper and has_lower and has_digit and has_special:
-         print("✅ Strong Password")
+         print("Strong Password")
          print("Excellent! Your password follows recommended security practices.")
 
 elif len(password) >= 8:
-         print("⚠️ Medium Password")
+         print(" Medium Password")
          print("Good! Your password is acceptable but can be stronger.")
          print()
-         print("Password Improvement Tips:")
+         print("Suggestions to improve your password:")
 
          if not has_upper:
           print("- Add at least one uppercase letter.")
@@ -53,10 +53,10 @@ elif len(password) >= 8:
             print("- Use at least 8 characters.")
 
 else:
-         print("❌ Weak Password")
+         print(" Weak Password")
          print("Your password needs improvement.")
          print()
-         print("Password Improvement Tips:")
+         print("Suggestions to improve your password:")
          if not has_upper:
           print("- Add at least one uppercase letter.")
 
